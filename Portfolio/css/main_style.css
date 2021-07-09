@@ -1,0 +1,156 @@
+body {
+	margin: 5px;
+	padding : 10px;
+    /*  for old browsers */
+    background: -webkit-linear-gradient(to left, #4568DC, #B06AB3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4568DC, #B06AB3);
+}
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  animation-name: bodycolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bodycolor{
+  from {background-color: #181818;}
+  to {background-color: #E0E0E0;}
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family : Cursive;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: 	#FAFAD2;
+}
+
+ul.topnav li a.active {
+	background-color: #04AA6D;
+}
+
+ul.topnav li.right {
+	float: right;
+}
+
+section {
+  padding: 20px;
+}
+
+.profile-box {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto 30px;
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: 0.3s ease all;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.5);
+}
+
+.profile-box:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 5px 80px rgba(0, 0, 0, 0.5);
+}
+
+
+.profile-box img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 4px;
+  transition: 1s ease all;
+}
+
+.profile-box:hover img {
+  transform: scale(1.25);
+}
+
+.profile-box .box-content {
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  padding: 5px 20px 0px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease all;
+}
+
+.profile-box:hover .box-content {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.profile-box .box-content h3 {
+  margin-bottom: 15px;
+}
+.heading{
+	color: #f1f9ec;
+	background: rgba(0, 0, 0, 0.5);
+	text-align : center;
+	height : 20px;
+	font-family : curvey;
+	font-family: cursive;
+    font-weight: bolder;
+}
+
+.projectTitle, .projectCentent{
+	text-align : center; 
+}
+
+.projectCentent{
+	
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding : 10px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+td:hover{
+	 transform: translateX(10px);
+	 font-size :20px;
+	 font-weight : bolder;
+	 font-family : Monospace;
+}
+th{
+	background-color: #f2f2f2;
+}
+
+tr{
+	background-color: #f9ecec;
+}
+a{
+	text-decoration : none;
+}
+#footer{
+	text-align : center;
+}
+
+
+
