@@ -9,7 +9,7 @@
 Portfolio Page
 ```
 <p align="center">
-<img alt="GIF" src="https://github.com/krishdu/CSS/blob/master/portfolio-gif-css.gif?raw=true" width="800" height="400"/>
+<img alt="GIF" src="https://github.com/krishdu/HTML-CSS/blob/master/portfolio-gif-css.gif?raw=true" width="800" height="400"/>
 </p>
 
 
@@ -17,7 +17,7 @@ Portfolio Page
 Tribute Page - A. P. J. Abdul Kalam
 ```
 <p align="center">
-<img alt="GIF" src="https://github.com/krishdu/CSS/blob/master/tribute-page-gif-css.gif?raw=true" width="800" height="400"/>
+<img alt="GIF" src="https://github.com/krishdu/HTML-CSS/blob/master/tribute-page-gif-css.gif?raw=true" width="800" height="400"/>
 </p>
 
 ```
